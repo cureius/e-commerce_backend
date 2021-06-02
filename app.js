@@ -17,6 +17,7 @@ mongoClient.connect(url, (err, db) => {
 
         app.post('/signup', (req, res) => {
 
+            
             const newUser = {
                 name: req.body.name,
                 email: req.body.email,
